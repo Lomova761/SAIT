@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Eduford College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="course.html">Курсы</a></li>
+			<li><a href="contact.html">Контакты</a></li>
+			<li><a href="login.html">Логин</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/about.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/b1ac0f7.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/stil.jpg">
+</div>
+
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Главная";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post">О нас </a>	</h3>  
+			</header>
+			<footer>
+			</footer>
+			<content>
+<p>Колледж Эдуфорд, автономное 
+частное учебное заведение, призванное поддерживать 
+отличную успеваемость. С момента своего основания в 2010 году Колледж Эдуфор активно работает в качестве Informatics Education 
+Limited, Сингапур. Колледж Эдуфорд имеет солидный послужной список 
+академических достижений в рамках сетей информатики по всему миру. Нас поддерживает команда
+ преданных своему делу профессоров, лекторов-консультантов, дотошный менеджмент и заботливая 
+ служба технической поддержки. Колледж Эдуфорд сегодня выпускает конкурентоспособных 
+ выпускников, занимая завидное положение среди работодателей и университетов как на национальном, 
+ так и на международном уровнях.
+
+Колледж Эдуфорд сегодня может с гордостью похвастаться тем, что выпустил устойчивых и 
+востребованных выпускников по различным программам в области информационных технологий, бизнеса и менеджмента.
+
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">Цель программы</a>	</h3>  
+			</header>
+			<content>
+<p>Наша целостная образовательная программа уделяет равное внимание 
+как академическим, так и неакадемическим совместным занятиям. 
+Мы стремимся предоставлять услуги по обучению и поддержке, а также 
+создавать благоприятные условия для того, чтобы вы могли учиться, жить
+ и развиваться как мировые мыслители завтрашнего дня.
+Мы стремимся предоставить вам все самое лучшее.
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Присоединяйтесь к нам сегодня!</h3>
+		<p>Отправляйтесь в увлекательное путешествие по нашим специальностям </p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Ваша квалификация в зале заседаний</h3>
+		<p>Степень, позволяющая развивать свои таланты и умения</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Будьте впереди своих сверстников</h3>
+		<p>Ускорьте свое образование с помощью наших курсов</p>
+	</article>
+</aside>
+<footer class="mainFooter">
+	<p>Авторское право &copy <a href="https://www.facebook.com/IamBRP">Bishworaj Poudel</a> </p>
+	<center>
+	<a href="https://www.facebook.com/IamBRP/">Facebook</a>
+	<a href="https://www.twitter.com/IamBRP/">Twitter</a>
+	<a href="https://www.youtube.com/IamBRP/">Youtube</a>
+	</center>
+</footer>
+
+</body>
+</html>
